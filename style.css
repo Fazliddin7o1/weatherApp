@@ -1,0 +1,64 @@
+/* Asosiy stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg')
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.city-name {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+.temperature {
+    font-size: 3em;
+    color: #FF5722;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #757575;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
